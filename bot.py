@@ -1,9 +1,8 @@
 
 import os
 import sqlite3
-from telegram import Update, ReplyKeyboardMarkup
-from telegram.ext import Application, CommandHandler, , ContextTypes, filters
-
+from telegram import Update, ReplyKeyboardMarkup CommandHandler, , ContextTypes, filters
+from telegram.ext import Application, CommandHandler, ContextTypes, filters
 TOKEN = os.getenv("BOT_TOKEN")
 
 if not TOKEN:
